@@ -1,14 +1,25 @@
 {
   "name": "socket-chat",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^12.0.0",
+    "date-fns": "^2.29.3",
+    "koa": "^2.13.4",
+    "koa-logger": "^3.2.1",
+    "koa-send": "^5.0.1",
+    "koa-static": "^5.0.0",
+    "socket.io": "^4.5.4"
   },
   "devDependencies": {
-    "vite": "^3.2.3"
+    "nodemon": "^2.0.20"
   }
 }
